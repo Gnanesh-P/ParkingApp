@@ -27,6 +27,7 @@ public class ParkingBL {
 		parkingSlot=new HashMap<Integer, VehicleDetails>();
 		for (int i = 1; i <= capacity; i++)
 			freeSlots.offer(i);
+		parkingSlot.clear();
 	}
 
 	public void exitVehicles(int id) {
